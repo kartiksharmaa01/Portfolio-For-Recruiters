@@ -1,0 +1,66 @@
+.connect{
+    border-top: 2px solid #bd7811;
+    border-bottom: 2px solid #bd7811;
+    background-color:#30333a;
+    color:#D4D4D4;
+    padding:40px;
+
+}
+
+.connect h1{
+    text-align: center;
+    padding:30px;
+    color:#bd7811;
+}
+
+.connect_box{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+}
+
+.connect_content,.profile_content{
+    text-align: center;
+    font-size:17px;
+}
+
+.linkedin{
+    text-decoration: none;
+    color:#D4D4D4;
+}
+
+.profile_box{
+    display:grid;
+    grid-template-columns: 30%;
+    justify-content: center;
+    margin:10px;
+}
+
+.profile_box pre:hover{
+	box-shadow: 0 0 10px #bd7811,0 0 15px white;
+}
+
+@media screen and (max-width:900px){
+
+    .connect_box{
+        display:block;
+    }
+
+    .connect_content{
+        width:100%;
+        margin:10px;
+    }
+}
+
+.connect_content pre{
+    border-radius: 5px;
+    border: 1px solid #bd7811;
+}
+
+.profile_box pre{
+    border-radius: 5px;
+    border: 1px solid #bd7811;
+}
+
+
+

@@ -1,0 +1,58 @@
+.education{
+	max-width:100%;
+	height:auto;
+	background-color:#3d3e42;
+	display:grid;
+	grid-template-columns:50% 50%;
+	padding:20px 20px 20px 50px;
+}
+
+.ed_box{
+	padding:30px;
+	
+}
+
+.ed_content h3,.ed_content h4{
+	padding:2% 0 2% 0;
+	color:#bd7811;
+	text-align:center;
+}
+
+.ed_box h1{ 
+	border:1px solid #bd7811;
+	border-radius:30px;
+	box-shadow:0 5px 10px black;
+	background-color:#bd7811 ;
+	padding:2% 0 2% 0;
+	color:#D4D4D4;
+	text-align:center;
+}
+
+.ed_content{
+	padding: 40px;
+	color:#D4D4D4;
+	font-size:17px;
+	text-align: center;
+}
+
+@media screen and (max-width:1100px){
+	.education{
+		display:block;
+	}
+	
+	.ed_box{
+		width:100%;
+		padding:0;
+		justify-content: center;
+	}
+
+	.ed_box h1{
+		text-align:center;
+	}
+
+	.ed_content{
+		width:100%;
+		padding:20px;
+	}
+}
+		
